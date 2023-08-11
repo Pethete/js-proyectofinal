@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.titulo-header {
+    list-style: none;
+    font-family: "Permanent Marker", cursive;
+    display: flex;
+  }
+.titulo-header li a {
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    margin-left: 1rem;
+  }
+.titulo-header li a:hover {
+    color: darkred;
+  }
+
+.contenedor {
+    background-color: #cccccc;
+  }
