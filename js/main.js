@@ -119,7 +119,6 @@ function calcularTotal() {
         });
         return total + miItem[0].precio;
     }, 0).toFixed(2);
-   
 }
 
 
@@ -146,3 +145,4 @@ function cargarCarrito() {
 cargarCarrito();
 generarProductos();
 generarCarrito();
+console.log(carrito);
